@@ -1,0 +1,16 @@
+nav {
+  background-color: rgb(179, 159, 132);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.link{
+  padding: 10px 40px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.link:hover {
+  color:#b3e618;
+}

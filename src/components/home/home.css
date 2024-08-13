@@ -1,0 +1,14 @@
+.main {
+  background-image: url('../../images/subdivision.jpg');
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.main h1{
+  margin: 0;
+  padding-top: 20px;
+}
+.main h2{
+  font-style: italic;
+}
