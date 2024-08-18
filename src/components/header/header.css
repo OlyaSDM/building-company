@@ -1,16 +1,29 @@
-nav {
+header {
   background-color: rgb(179, 159, 132);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 15px;
 }
+nav{
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .link{
-  padding: 10px 40px;
+  font-size: 20px;
+  font-weight: 500;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
 }
 .link:hover {
   color:#b3e618;
+}
+@media all and (max-width: 1024px){
+  .link {
+    font-size: 18px;
+  }
 }
