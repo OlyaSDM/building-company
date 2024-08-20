@@ -11,18 +11,21 @@ import Header from "./components/header/Header";
 function App() {
 
   return (
-    <Router>
-      <Header/>
+    <div className="App">
+      <Router>
+        <Header/>
 
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/about" element={<AboutUs/>} />
-        <Route path="/service" element={<Service/>} />
-        <Route path="/maintenance" element={<PropertyMaintenance/>} />
-        <Route path="/contact" element={<Contact/>} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<AboutUs/>} />
+          <Route path="/service" element={<Service/>} />
+          <Route path="/maintenance" element={<PropertyMaintenance/>} />
+          <Route path="/contact" element={<Contact/>} />
+        </Routes>
 
     </Router>
+    </div>
+    
   );
 }
 
