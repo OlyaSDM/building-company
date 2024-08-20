@@ -1,6 +1,13 @@
 .about-container{
   text-align: center;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 .about-container h2{
   font-style: italic;
+  margin-bottom: 20px;
+}
+p{
+  text-align: justify;
+  line-height: 32px;
 }
