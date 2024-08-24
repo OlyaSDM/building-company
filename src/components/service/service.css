@@ -1,6 +1,88 @@
+@font-face {
+	font-family: 'MeieScriptRegular';
+	src: url('..//..//fonts/MeieScriptRegular.ttf');
+}
+
+@font-face {
+	font-family: 'PTSerif-Bold';
+	src: url('..//..//fonts/PTSerif-Bold.ttf');
+
+}
+
+@font-face {
+	font-family: 'PTSans-Regular';
+	src: url('..//..//fonts/PTSans-Regular.ttf');
+
+}
+
+
+:root {
+	--color-text: #141414;
+	--color-yellow: #ffc60d;
+	--color-white: #fff;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
 .service-container{
+  margin-top: 60px;
   text-align: center;
 }
 .service-container h2{
-  font-style: italic;
+  font-family: 'PTSerif-Bold';
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1.25926;
+  text-align: center;
+  color: var(--color-text);
+}
+
+
+.cards {
+  display: flex;
+  justify-content: center;
+  max-width: 1850px;
+  flex-wrap: wrap;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 100px;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  width: 263px;
+height: 310px;
+box-shadow: -1px 4px 6px 0 #a5851b;
+background: var(--color-white);
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 40px;
+}
+
+.card:hover {
+  box-shadow: inset 1px 1px 4px 0 #a5851b;
+  background: #fff;
+}
+
+.img-card {
+  box-shadow: 1px 1px 1px 0 #aaaaa9;
+}
+
+.card-name {
+  font-family: 'PTSans-Regular';
+font-weight: 400;
+font-size: 24px;
+line-height: 1.19048;
+text-align: center;
+color: var(--color-text);
+margin-top: auto;
+margin-bottom: auto;
 }
