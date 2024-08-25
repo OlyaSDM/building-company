@@ -3,7 +3,7 @@ import './header.css';
 import { useState } from 'react';
 import burger from '../../icons/burger-btn.png';
 import closed from '../../icons/closed-btn.png';
-
+import logo from '../../icons/logo.png';
 
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className='header'>
       <nav className='nav'>
-        <img src="#" alt="Logo"/>
+        <img src={ logo } alt="Logo" className='logo'/>
         <div id="header-links" className={isOpen ? 'active' : ''}>
           <Link to="/" className="header-link">Home</Link>
           <Link to="/about" className="header-link">About</Link>
