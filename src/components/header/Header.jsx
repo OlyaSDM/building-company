@@ -1,34 +1,34 @@
 import { Link } from 'react-router-dom';
-import logo from "../../icons/logo.png";
-import burger from "../../icons/burger.png";
-import closed from "../../icons/closed.png";
 import './header.css';
 import { useState } from 'react';
+import burger from '../../icons/burger-btn.png';
+import closed from '../../icons/closed-btn.png';
+
 
 
 const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState();
 
   return (
-      <nav>
-        <img src={logo} className="logo" alt="circle logo with building instruments"/>
+    <header className='header'>
+      <nav className='nav'>
+        <img src="#" alt="Logo"/>
+        <div id="header-links" className={isOpen ? 'active' : ''}>
+          <Link to="/" className="header-link">Home</Link>
+          <Link to="/about" className="header-link">About</Link>
+          <Link to="/service" className="header-link">Services</Link>
+          <Link to="/maintenance" className="header-link">Property maintenance</Link>
+          <Link to="/gallery" className="header-link">Gallery</Link>
+          <Link to="/contact" className="header-link">Contact</Link>
 
-        <div className='menu' onClick={() => setMenuOpen(!menuOpen)}>
-          <img 
-          src={menuOpen ? closed : burger} 
-          alt={menuOpen ? "mobile menu closed button" : "mobile menu open button"} 
-          />
         </div>
-
-        <div id="links" className={menuOpen ? "open" : ""}>
-          <Link to="/" className="link">Home</Link>
-          <Link to="/about" className="link">About</Link>
-          <Link to="/service" className="link">Services</Link>
-          <Link to="/maintenance" className="link">Property maintenance</Link>
-          <Link to="/gallery" className="link">Gallery</Link>
-          <Link to="/contact" className="link">Contact</Link>
+        <div className="mobile-menu" onClick={() => setIsOpen(!isOpen)}>
+          <img src={isOpen ? closed : burger} alt="mobile menu icon" />
         </div>
+        
       </nav>
+    </header>
+      
     
   )
 }

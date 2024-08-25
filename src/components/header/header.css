@@ -1,22 +1,29 @@
-
-nav{
+.header{
   background-color: rgba(255, 255, 255, 1);
-  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0 , 0.25);
+}
+.nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 134px;
   position: sticky;
   top: 0;
-  /* max-width: 1300px;
-  width: 100%; */
+  max-width: 1500px;
+  width: 100%;
   padding: 0 20px;
+  
 }
-#links{
+#header-links{
   display: flex;
   
 }
-.link{
+.header-link{
   font-family: "PT Sans", sans-serif;
   display: block;
   font-size: 18px;
@@ -28,10 +35,10 @@ nav{
   position: relative;
   transition: 0.3s ease-in-out;
 }
-.link:hover {
+.header-link:hover {
   color:rgba(255, 198, 13, 1);
 }
-.link:hover::after{
+.header-link:hover::after{
     content: "";
     width: 30%;
     height: 2px;
@@ -40,48 +47,40 @@ nav{
     bottom: -6px;
     left: 0px;
   }
-.menu{
-  display: none;
-  position: absolute;
-  right: 10px;
-  cursor: pointer;
-}
-
-@media (max-width: 1024px){
-  .link {
-    font-size: 16px;
+  .mobile-menu{
+    display: none;
   }
 
-@media (max-width: 768px){
- nav{
-  flex-direction: column;
-  align-items: start;
-  padding: 0;
- }
- .menu{
-  display: flex;
-  top: 35px;
- }
- 
- #links{
-  display: none;
-  flex-direction: column;
-  width: 100vw;
-  transition: display 0.2s ease-in-out;
- }
- #links.open {
-  display: flex;
-  background-color: rgba(255, 255, 255, 1);
-  width: 100%;
- }
- .link{
-  width: 100%;
-  text-align: center;
-  margin-left: 0;
-  margin-bottom: 10px;
- }
- .link:hover::after{
-  content: none;
- }
+@media (max-width: 1024px){
+  .header-link {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+  }
 }
+@media (max-width: 600px){
+  #header-links{
+    position: fixed;
+    top: 0;
+    left: -225px;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 100%;
+    background-color: white;
+    border: 2px solid rgba(255, 198, 13, 1);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0 , 0.25);
+    transition: transform 0.3s linear;
+  } 
+  #header-links.active{
+    transform: translateX(100%);
+  }
+  .header-link{
+    padding-top: 40px;
+  }
+  .mobile-menu{
+    display: block;
+  }
 }
