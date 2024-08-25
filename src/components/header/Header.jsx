@@ -18,7 +18,9 @@ const Header = () => {
           <Link to="/about" className="header-link">About</Link>
           <Link to="/service" className="header-link">Services</Link>
           <Link to="/maintenance" className="header-link">Property maintenance</Link>
+          <Link to="/gallery" className="header-link">Gallery</Link>
           <Link to="/contact" className="header-link">Contact</Link>
+
         </div>
         <div className="mobile-menu" onClick={() => setIsOpen(!isOpen)}>
           <img src={isOpen ? closed : burger} alt="mobile menu icon" />

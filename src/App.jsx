@@ -6,6 +6,7 @@ import Service from "./components/service/Service";
 import PropertyMaintenance from "./components/propertymaintenance/PropertyMaintenance";
 import Contact from "./components/contactAndReviewPage/Contact";
 import Header from "./components/header/Header";
+import Gallery from "./components/photo-gallery/gallery";
 
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/service" element={<Service/>} />
           <Route path="/maintenance" element={<PropertyMaintenance/>} />
           <Route path="/contact" element={<Contact/>} />
+          <Route path="/gallery" element={<Gallery/>} />
         </Routes>
 
     </Router>
