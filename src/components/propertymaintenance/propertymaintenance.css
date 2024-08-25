@@ -1,6 +1,76 @@
+@font-face {
+	font-family: 'MeieScriptRegular';
+	src: url('..//..//fonts/MeieScriptRegular.ttf');
+}
+
+@font-face {
+	font-family: 'PTSerif-Bold';
+	src: url('..//..//fonts/PTSerif-Bold.ttf');
+
+}
+
+@font-face {
+	font-family: 'PTSans-Regular';
+	src: url('..//..//fonts/PTSans-Regular.ttf');
+
+}
+
+
+:root {
+	--color-text: #141414;
+	--color-yellow: #ffc60d;
+	--color-white: #fff;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 .maintenance-container{
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
+  padding: 0 20px;
 }
 .maintenance-container h2{
+  font-family: 'PTSerif-Bold';
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.25926;
+  text-align: center;
+  color: var(--color-text);
+  margin-top: 60px;
+}
+.maintenance-boxes{
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  font-family: 'PTSans-Regular';
+}
+.maintenance-box-one{
+  flex: 1;
+}
+.maintenance-box-one img{
+  width: 100%;
+}
+.maintenance-box-two{
+  flex: 1;
+}
+.maintenance-box-two h3{
   font-style: italic;
+  font-size: 20px;
+}
+@media (max-width: 1024px){
+  .maintenance-boxes{
+    flex-direction: column;
+  }
+  .maintenance-box-one img{
+    height: 500px;
+    width: 400px;
+  }
+  .maintenance-container h2{
+    font-size: 26px;
+  }
 }
