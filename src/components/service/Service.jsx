@@ -19,10 +19,12 @@ const Service = () => {
 </svg>
 
 <div className='cards'>
+  <a href='https://emalgroup.app/form/authentication' className=''>
   <div className='card'>
 <img className='img-card' src={cardOne} alt='card'/>
 <p className='card-name'>Plumbing fixes and installations</p>
   </div>
+  </a>
   <div className='card'>
 <img className='img-card' src={cardSecond} alt='card'/>
 <p className='card-name'>Furniture assembly</p>
