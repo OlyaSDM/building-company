@@ -78,6 +78,7 @@
     border-bottom-right-radius: 16px;
     box-shadow: 0 0 4px 4px rgba(0, 0, 0 , 0.25);
     transition: transform 0.3s linear;
+    z-index: 10;
   } 
   #header-links.active{
     transform: translateX(100%);
