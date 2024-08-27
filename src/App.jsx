@@ -25,8 +25,7 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/gallery" element={<Gallery/>} />
         </Routes>
-
-    </Router>
+      </Router>
     </div>
     
   );
