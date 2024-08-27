@@ -9,6 +9,7 @@ import cardSeventh from "..//..//images/7.png";
 import cardEighth from "..//..//images/8.png";
 import cardNinth from "..//..//images/9.png";
 import cardTenth from "..//..//images/10.png";
+import data from "../dataService.json";
 
 const Service = () => {
   return (
@@ -60,6 +61,16 @@ const Service = () => {
 <p className='card-name'>Other types of work</p>
   </div>
 </div>
+
+    {/* {data.map(service => {
+      return (
+        <div key={service.id} className='card'>
+          <img src={service.image} alt={service.title} className='img-card'/>
+          <p className='card-name'>{service.title}</p>
+          <p>{service.description}</p>
+        </div>
+      )
+    })} */}
     </div>
   )
 }

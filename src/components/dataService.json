@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "title": "Property Maintenance Services for Airbnb",
+    "description": "With our services, you can be sure that your home will always be in perfect condition, ready to receive guests.",
+    "image": "4.png"
+  },
+  {
+    "id": "2",
+    "title": "Other types of work",
+    "description": "With our services, you can be sure that your home will always be in perfect condition, ready to receive guests.",
+    "image": "../images/10.png"
+  }
+]

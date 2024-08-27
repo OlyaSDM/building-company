@@ -28,8 +28,6 @@ const Header = () => {
         
       </nav>
     </header>
-      
-    
   )
 }
 
