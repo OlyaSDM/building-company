@@ -1,14 +1,71 @@
 [
   {
     "id": "1",
-    "title": "Property Maintenance Services for Airbnb",
-    "description": "With our services, you can be sure that your home will always be in perfect condition, ready to receive guests.",
-    "image": "4.png"
+    "title": "Plumbing fixes and installations",
+    "description": "1. Plumbing repair: our team of experienced technicians is equipped with everything necessary to solve a wide range of plumbing issues, from leaking pipes and clogged drains to faulty fixtures and malfunctioning water heaters. We guarantee efficient and effective solutions to restore the functionality of your plumbing system;",
+    "descriptionn": "2. Our specialists have the knowledge and experience to complete the work with precision. We guarantee professional services for installation.",
+        "image": "1.png"
+  },
+   {
+    "id": "2",
+    "title": "Furniture assembly",
+    "description": "1.Readiness for assembly of furniture of any complexity;",
+    "descriptionn": " 2.We assemble furniture of any complexity: from simple tables and chairs to beds and wardrobes.",
+    "image": "2.png"
+  },
+  
+  {
+    "id": "3",
+    "title": "Tile installation and repair",
+    "description": "Our specialists have the knowledge and experience to complete the work with precision. We guarantee professional services for installation.",
+        "image": "3.png"
   },
   {
-    "id": "2",
+    "id": "4",
+    "title": "Property Maintenance Services for Airbnb",
+    "description": "1. Regular cleaning and maintenance of the accommodation to ensure a hospitable and comfortable environment for Airbnb guests;",
+    "descriptionn": " 2. Prompt repairs and technical servicing to address any issues or concerns that may arise during guests' stays.",
+        "image": "4.png"
+  },
+  {
+    "id": "5",
+    "title": "Door installation or repair",
+    "description": "1. Installation and repair of doors of any type and size;",
+    "descriptionn": "2. Professional and high-quality service using reliable materials and tools.",
+        "image": "5.png"
+  },
+  {
+    "id": "6",
+    "title": "Painting and repair",
+    "description": "1. Painting: Our team specializes in high-quality painting of walls, ceilings, and other surfaces in your home or office;",
+    "descriptionn": "2. Repair: We provide services for repairing various damages and defects in your living space, including the replacement of doors, windows, floors, and much more.",
+       "image": "6.png"
+  },
+  {
+    "id": "7",
+    "title": "Painting and drywall repair",
+    "description": "1.Painting services: From interior to exterior painting, we offer a wide range of color solutions to transform your space;",
+    "descriptionn": "2.Drywall repair services: We offer professional drywall repair services to fix any holes, cracks, or damages on your walls.",
+        "image": "7.png"
+  },
+  {
+    "id": "8",
+    "title": "Construction and repair of fences",
+    "description": "1.Installation and repair of fences of any complexity and materials;",
+    "descriptionn": "2.Individual approach to each order to ensure the safety and durability of the structure.",
+        "image": "8.png"
+  },
+  {
+    "id": "9",
+    "title": "Construction and repair of terraces",
+    "description": "1.Terrace construction: our experienced team offers professional services for designing and constructing beautiful and durable terraces that meet your specific needs and preferences;",
+    "descriptionn": "2.Terrace repair: we also provide skilled repair services to address any damage or issues with existing terraces, ensuring their safety and functionality for your enjoyment.",
+        "image": "9.png"
+  },
+  {
+    "id": "10",
     "title": "Other types of work",
-    "description": "With our services, you can be sure that your home will always be in perfect condition, ready to receive guests.",
-    "image": "../images/10.png"
+    "description": "Renovation of apartments and houses: We offer a wide range of services for the repair and decoration of residential premises, including interior planning and design, installation of plumbing, electrical work, wall and floor finishes, as well as replacement of windows and doors.",
+        "image": "10.png"
   }
 ]
