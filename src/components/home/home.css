@@ -34,7 +34,9 @@
 	height: 100vh;
 	background-size: cover;
 }
-
+.block {
+	max-width: 1500px;
+}
 .block-text {
 	display: flex;
 	justify-content: flex-start;
@@ -69,81 +71,6 @@
 }
 
 
-/* About us
-
-.about-us {
-  background-image: url('../../images/bg-second.jpg');
-width: 100vw;
-height: 888px;
-  background-size: cover;
-margin-top: -160px;
-}
-
-.about-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.about-text h2 {
-  font-family: var(--second-family);
-font-weight: 700;
-font-size: 55px;
-line-height: 0.45455;
-text-align: center;
-color: var(--color-yellow);
-margin-top: 260px;
-}
-
-.line {
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-
-.text-about {
-  align-self: center;
-  font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-line-height: 1.375;
-text-align: center;
-color: var(--color-white);
-max-width: 900px;
-padding-top: 20px;
-}
-.icons {
-  display: flex;
-  justify-content: center;
-}
-
-.icon-main {
-  display: flex;
-  flex-direction: column;
-
-}
-.icon {
-  align-self: center;
-  width: 60px;
-  height: 60px;
-}
-
-.p-main {
-  font-family: var(--font-family);
-font-weight: 400;
-font-size: 22px;
-text-align: center;
-color: var(--color-white);
-}
-
-.p-ather {
-  font-family: var(--font-family);
-font-weight: 100;
-font-size: 16px;
-text-align: center;
-color: #8f8080;
-} */
 
 
 @media (max-width: 1600px) {
