@@ -87,3 +87,16 @@ color: var(--color-text);
 margin-top: auto;
 margin-bottom: auto;
 }
+
+a {
+  text-decoration: none;
+}
+
+/*modal window */
+
+.close-modal {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  
+}

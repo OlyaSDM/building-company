@@ -1,4 +1,7 @@
+import React, { useState } from 'react';
+
 import './service.css';
+import Modal from '..//..//components/service/modalwindow';
 import cardOne from "..//..//images/1.png";
 import cardSecond from "..//..//images/2.png";
 import cardThird from "..//..//images/3.png";
@@ -11,6 +14,16 @@ import cardNinth from "..//..//images/9.png";
 import cardTenth from "..//..//images/10.png";
 
 const Service = () => {
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleImageClick = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleModalClose = () => {
+    setIsModalOpen(false);
+  };
   return (
     <div className='service-container'>
       <h2>Our services</h2>
@@ -19,27 +32,30 @@ const Service = () => {
 </svg>
 
 <div className='cards'>
-  <a href='https://emalgroup.app/form/authentication' className=''>
-  <div className='card'>
+  <div className='card' onClick={handleImageClick}>
 <img className='img-card' src={cardOne} alt='card'/>
 <p className='card-name'>Plumbing fixes and installations</p>
+<Modal isOpen={isModalOpen} onClose={handleModalClose} />
   </div>
-  </a>
-  <div className='card'>
+  <div className='card' onClick={handleImageClick}>
 <img className='img-card' src={cardSecond} alt='card'/>
 <p className='card-name'>Furniture assembly</p>
+<Modal isOpen={isModalOpen} onClose={handleModalClose} />
   </div>
-  <div className='card'>
+  <div className='card' onClick={handleImageClick}>
 <img className='img-card' src={cardThird} alt='card'/>
 <p className='card-name'>Tile installation and repair</p>
-  </div>
-  <div className='card'>
+<Modal isOpen={isModalOpen} onClose={handleModalClose} />
+  </div> 
+  <div className='card' onClick={handleImageClick}>
 <img className='img-card' src={cardFourth} alt='card'/>
 <p className='card-name'>Property Maintenance Services for Airbnb</p>
+<Modal isOpen={isModalOpen} onClose={handleModalClose} />
   </div>
-  <div className='card'>
+  <div className='card' onClick={handleImageClick}>
 <img className='img-card' src={cardFifth} alt='card'/>
 <p className='card-name'>Door installation or repair</p>
+<Modal isOpen={isModalOpen} onClose={handleModalClose} />
   </div>
   <div className='card'>
 <img className='img-card' src={cardSixth} alt='card'/>
