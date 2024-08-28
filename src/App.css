@@ -4,9 +4,11 @@
 	padding: 0;
 }
 .App{
-  height: 100%;
   width: 100%;
   overflow-x: hidden;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 /* fancy intalic font */
 @font-face {

@@ -1,0 +1,22 @@
+.footer{
+  text-align: center;
+  margin-top: auto; 
+  height: 80px;
+  font-family: 'PTSans-Regular';
+  background-color: var(--color-white);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container{
+  max-width: 1500px;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container p{
+  color: var(--color-text);
+  
+}
