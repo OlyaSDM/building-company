@@ -63,18 +63,24 @@ align-self: center;
 
 
 .card {
-  position: relative;
-  width: 300px;
-  height: 400px;
-
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  width: 363px;
+height: 410px;
+box-shadow: -1px 4px 6px 0 #a5851b;
+background: var(--color-white);
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 40px;
   transition: transform 0.8s;
-
+z-index: 1000;
 }
 
 
 
 .card.active {
-  transform: scale(1.2) rotateY(0deg);
+  transform: scale(1.1) rotateY(0deg);
 }
 
 .card-info {
@@ -95,7 +101,7 @@ background: var(--color-white);
 
  .card-info {
   opacity: 4;
-  padding: 10px;
+  padding: 40px;
 }
 
 .description {
@@ -103,35 +109,12 @@ background: var(--color-white);
   justify-content: flex-start;
   color: var(--color-text);
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 18px;
   text-align: justify;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 
-
-
-
-
-
-
-.card {
-  display: flex;
-  flex-direction: column;
-  padding: 18px;
-  width: 263px;
-height: 310px;
-box-shadow: -1px 4px 6px 0 #a5851b;
-background: var(--color-white);
-margin-left: 40px;
-margin-right: 40px;
-margin-top: 40px;
-}
-
-.card:hover {
-  box-shadow: inset 1px 1px 4px 0 #a5851b;
-  background: #fff;
-}
 
 .img-card {
   box-shadow: 1px 1px 1px 0 #aaaaa9;
@@ -189,3 +172,18 @@ a {
   padding: 5px;
 }
 
+@media (max-width: 320px) {
+.card {
+  width: 280px;
+  height: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  font-size: 10px;
+  z-index: 0;
+}
+.description {
+  font-size: 14px;
+}
+
+}
