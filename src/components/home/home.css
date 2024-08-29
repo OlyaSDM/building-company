@@ -1,12 +1,11 @@
 @font-face {
 	font-family: 'MeieScriptRegular';
-	src: url('..//..//fonts/MeieScriptRegular.ttf');
+	src: url('../../fonts/MeieScriptRegular.ttf');
 }
 
 @font-face {
 	font-family: 'PTSerif-Bold';
-	src: url('..//..//fonts/PTSerif-Bold.ttf');
-
+	src: url('../../fonts/PTSerif-Bold.ttf');
 }
 
 
