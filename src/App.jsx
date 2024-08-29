@@ -3,10 +3,11 @@ import './App.css';
 import AboutUs from "./components/aboutus/AboutUs";
 import Home from "./components/home/Home";
 import Service from "./components/service/Service";
-import PropertyMaintenance from "./components/propertymaintenance/PropertyMaintenance";
-import Contact from "./components/contactAndReviewPage/Contact";
+import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
-
+import Gallery from "./components/photo-gallery/gallery";
+import Review from "./components/review/Review";
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -20,11 +21,12 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<AboutUs/>} />
           <Route path="/service" element={<Service/>} />
-          <Route path="/maintenance" element={<PropertyMaintenance/>} />
+          <Route path="/gallery" element={<Gallery/>} />
+          <Route path="/review" element={<Review />} />
           <Route path="/contact" element={<Contact/>} />
         </Routes>
-
-    </Router>
+      </Router>
+      <Footer />
     </div>
     
   );
