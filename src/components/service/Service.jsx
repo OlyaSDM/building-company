@@ -36,7 +36,7 @@ const Service = () => {
               <div className='card-info'>
                 <p className='description'>{service.description}</p>
                 <p className='description'>{service.descriptionn}</p>
-                <a className='link-service' href='https://www.npmjs.com/package/vite-plugin-json5' target='blank'>
+                <a className='link-service' href='#' target='blank'>
                 <button className='btn-service'>CHOOSE</button>
                 </a>
               </div>
