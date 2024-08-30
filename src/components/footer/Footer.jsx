@@ -1,5 +1,5 @@
 import './footer.css';
-import emailIcon from '../../icons/email.png';
+import emailIcon from '../../icons/mailIcon.png';
 import mapIcon from '../../icons/mapIcon.png';
 import instaIcon from '../../icons/instaIcon.png';
 
@@ -9,7 +9,7 @@ const Footer = () => {
     <div className='footer'>
       <div className='footer-container'>
         <a href="mailto: info@emailgroup.com" target='_blank'>
-          <img src={ emailIcon } alt="phone icon" width="30"/>
+          <img src={ emailIcon } alt="email icon" width="36"/>
         </a>
         <a href="#" target='_blank'>
           <img src={ mapIcon } alt="phone icon"/>
