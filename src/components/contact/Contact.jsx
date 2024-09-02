@@ -5,7 +5,7 @@ import local from "../../icons/icon-local.png";
 
 const Contact = () => {
   return (
-      <main className="contact-page">
+      <main className="contact-page" id="contact">
 
                   <div className="contact-top">
                       Contacts

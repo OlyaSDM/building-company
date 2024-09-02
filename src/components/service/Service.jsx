@@ -14,7 +14,7 @@ const Service = () => {
   };
 
   return (
-    <div className='service-container'>
+    <div className='service-container' id="service">
       <div className='service-container'>
         <h2>Our services</h2>
         <svg className='svg-services' width="137" height="8" viewBox="0 0 137 8" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -7,7 +7,7 @@ import location from '..//..//images/location.png';
 
 const Home = () => {
 return (
-<main className="main-page">
+<main className="main-page" id='home'>
    <section className='main'>
       <div className='block'>
       <div className='block-text'>
