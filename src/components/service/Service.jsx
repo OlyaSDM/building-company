@@ -31,10 +31,14 @@ const Service = () => {
           >
             <img src={service.image} alt={service.title} className='img-card' />
             <p className='card-name'>{service.title}</p>
+
             {activeCard === service.id && (
               <div className='card-info'>
                 <p className='description'>{service.description}</p>
                 <p className='description'>{service.descriptionn}</p>
+                <a className='link-service' href='#' target='blank'>
+                <button className='btn-service'>CHOOSE</button>
+                </a>
               </div>
             )}
           </div>
