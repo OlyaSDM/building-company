@@ -8,15 +8,20 @@
   src: url('../../fonts/PTSerif-Bold.ttf');
 }
 
+.contact-page {
+  background-color: #1a1a1a;
+}
+
 .contact-top {
   font-family: 'PTSerif-Bold', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 54px;
+  font-size: 61px;
   padding-top: 80px;
   padding-bottom: 100px;
   text-align: center;
+  color: white;
 }
 
 .contact-details {
@@ -27,7 +32,8 @@
   padding-left: 800px;
   padding-bottom: 20px;
   font-family: 'PTSerif-Bold', sans-serif;
-  font-size: 24px;
+  font-size: 32px;
+  color: white;
  }
 
 .contact-info {
