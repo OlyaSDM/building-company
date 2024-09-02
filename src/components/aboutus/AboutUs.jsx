@@ -7,7 +7,7 @@ import icon4 from '..//..//icons/icon4.png';
 
 const AboutUs = () => {
   return (
-    <div className='about-container'>
+    <div className='about-container' id="about">
       <h1>About us</h1>
       <div className='wavy-line'>
         <svg width="125" height="9" viewBox="0 0 137 9" fill="none" xmlns="http://www.w3.org/2000/svg">
