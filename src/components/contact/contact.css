@@ -59,3 +59,34 @@
   font-size: 28px;
   font-weight: 400;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-info {
+  width: 260px
+}
+
+.name-info {
+  margin-right: 15px;
+}
+
+.form-title {
+  margin-bottom: 34px;
+}
+
+.form-info {
+  margin-bottom: 25px;
+  height: 50px;
+}
+
+.service-info {
+  height: 145px;
+}
+
+.send {
+  height: 50px;
+  background-color: #FFC60D;
+}

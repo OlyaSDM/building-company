@@ -50,7 +50,22 @@ const Contact = () => {
           </div>
 
           <div className="right">
+              <div className="form-title">
               If you have any questions, please write to us.
+              </div>
+              
+              <div className="form">
+
+                  <div>
+                  <input type="text" placeholder="Name" className="form-info personal-info name-info"/>
+                  <input type="email" placeholder="Email" className="form-info personal-info"/>
+                  </div>
+                  <input type="text" placeholder="Address" className="form-info"/>
+                  <input type="text" className="form-info service-info"/>
+
+                  <button className="send">SEND</button>
+
+              </div>
           </div>
 
       </main>
