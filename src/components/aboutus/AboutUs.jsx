@@ -34,15 +34,15 @@ const AboutUs = () => {
             maintain your home or business at the highest level.
           </p>
           <p className = 'text'>
-            Contact information For advice and to order our services, please contact us We will be happy to help you with any construction and repair work!
+            For advice and to order our services, please contact us We will be happy to help you with any construction and repair work!
           </p>
         </div>
       </div>
       <div className = 'about-content-two'>
         <p className = 'text'>
-          We offer quality construction and repair services to all cities in Texas. 
-          Our group consists of professionals, each of whom has extensive experience and high qualifications.
-          Regardless of the volume and complexity of the work, we guarantee reliability, quality and timeliness of work.
+          We offer quality construction and repair services to all cities in Texas.
+          Our group consists of professionals, each with extensive experience and high qualifications. 
+          Regardless of the volume or complexity of the work, we guarantee reliability, quality, and timeliness.
         </p>
         <div className = 'icon-boxes'>
           <div className = 'icon-boxes-row1'>
