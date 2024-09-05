@@ -29,7 +29,7 @@
 
 h1 {
   color: #FFC60D;
-  padding-top: 1em;
+  padding-top: 2.5em;
   font-size: clamp(2rem, 5vw + 1rem, 3.375rem);
   font-family: 'PTSerif-Bold';
 }
@@ -69,6 +69,7 @@ p {
   max-width: 51.61%; 
   padding-top: 4.8em;
   padding-right: 2em;
+align-items: center;
 }
 
 .about-text-box .text {
@@ -78,7 +79,7 @@ p {
 
 .text {
   color: #97999B;
-  font-size: 1.875rem;
+  font-size: 1.665rem;
   font-family: "PT Sans", sans-serif;
 }
 
@@ -123,7 +124,7 @@ p {
 
 .t-big {
   color: #FFC60D;
-  font-size: 1.25rem;
+  font-size: 1.45rem;
 }
 
 .t-small {
