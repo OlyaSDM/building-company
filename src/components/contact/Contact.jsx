@@ -18,14 +18,14 @@ const Contact = () => {
 
                   <div className="contact-details">
                       <div className="contact-image">
-                          <img src={phone} alt="phone-icon"/>
+                          <img src={phone} alt="phone-icon" className="contact-image"/>
                       </div>
                       <div className="contact-info"> 737-347-3987 </div>
                   </div>
 
                   <div className="contact-details">
                       <div className="contact-image">
-                          <img src={email} alt="email-sign"/>
+                          <img src={email} alt="email-sign" className="contact-image"/>
                       </div>
                       <div className="contact-info"> info@emalgroup.com </div>
                   </div>
@@ -33,7 +33,7 @@ const Contact = () => {
                   <div className="contact-details">
 
                       <div className="contact-image">
-                              <img src={local} alt="icon-local"/>
+                              <img src={local} alt="icon-local" className="contact-image"/>
                           </div>
                       <div className="contact-info">13509 Feldspar Dr
                       </div>

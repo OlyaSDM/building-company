@@ -16,7 +16,9 @@
 .contact-page {
   background-color: #1a1a1a;
   display: flex;
-  padding: 160px 0 160px 370px;
+  justify-content: center;
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 .left {
@@ -33,6 +35,7 @@
 
 .svg-contact {
   margin-bottom: 60px;
+  margin-left: 30px;
 }
 
 .contact-details {
@@ -51,6 +54,7 @@
 }
 
 .address {
+  margin-left: 30px;
 }
 
 .right {
@@ -80,6 +84,7 @@
 .form-info {
   margin-bottom: 25px;
   height: 50px;
+  padding-left: 10px;
 }
 
 .service-info {
@@ -90,3 +95,135 @@
   height: 50px;
   background-color: #FFC60D;
 }
+
+@media (max-width: 1300px) {
+  .left {
+    padding-right: 110px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .contact-page {
+    flex-direction: column;
+  }
+
+  .left {
+    padding-right: 0;
+    padding-left: 300px;
+    padding-bottom: 130px;
+  }
+
+  .contact-top {
+    font-size: 54px;
+  }
+
+  .contact-details {
+    font-size: 34px;
+  }
+
+  .contact-image {
+    height: 60px;
+    max-width: 60px;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+}
+
+  @media (max-width: 900px) {
+    .left {
+      padding-left: 200px;
+    }
+  }
+
+  @media (max-width: 700px) {
+
+    .contact-page {
+      padding-top: 100px;
+    }
+
+    .left {
+      padding-bottom: 60px;
+    }
+
+    .contact-top {
+      font-size: 40px;
+    }
+
+    .contact-details {
+      font-size: 25px;
+    }
+
+    .contact-image {
+      height: 40px;
+      max-width: 40px;
+    }
+  }
+
+  @media (max-width: 700px) {
+
+    .contact-page {
+      padding-top: 60px;
+    }
+
+    .left {
+      padding-left: 150px;
+      padding-bottom: 60px;
+    }
+
+    .contact-top {
+      font-size: 40px;
+    }
+
+    .contact-details {
+      font-size: 25px;
+    }
+
+    .contact-image {
+      height: 40px;
+      max-width: 40px;
+    }
+
+    .form-toggle {
+      display: none;
+      }
+
+    .right {
+      max-width: 60%;
+      margin-left: 100px;
+    }
+  }
+
+  @media (max-width: 570px) {
+    .left {
+      padding-left: 70px;
+        }
+    }
+
+  @media (max-width: 400px) {
+    .left {
+      padding-left: 50px;
+        }
+
+    .svg-contact {
+      margin-bottom: 25px;
+    }
+
+    .contact-top {
+      font-size: 30px;
+      }
+
+    .contact-details {
+      font-size: 20px;
+      }
+
+    .contact-image {
+      height: 30px;
+      max-width: 30px;
+      }
+
+    }
+
