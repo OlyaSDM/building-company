@@ -4,7 +4,7 @@ import './call.css';
 
 const Call = () => {
     return (
-        <a href="tel:+737-347-3983"><img src={phone} alt='icon' width={70} height={70} className="form-toggle"/></a>
+        <a href="tel:+737-347-3983"><img src={phone} alt='icon'  className="form-toggle"/></a>
     );
 }
 
