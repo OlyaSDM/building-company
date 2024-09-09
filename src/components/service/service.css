@@ -223,7 +223,7 @@ box-shadow: 1px 1px 1px 0 #aaaaa9;
 
 @media (max-width: 320px) {
 .card {
-  width: 280px;
+  width: 260px;
   height: 380px;
   margin-left: auto;
   margin-right: auto;
