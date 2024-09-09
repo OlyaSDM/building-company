@@ -1,10 +1,14 @@
-import phone from "..//..//icons/phone.png";
+import crm from "..//..//icons/crm.png";
 import './call.css';
-
 
 const Call = () => {
     return (
-        <a href="tel:+737-347-3983"><img src={phone} alt='icon'  className="form-toggle"/></a>
+        <div className="call-container">
+
+                <img className="form-toggle" src={crm} alt='icon' />
+
+                        <a href="" ><span className="call-text">Free estimate today</span></a>
+        </div>
     );
 }
 
