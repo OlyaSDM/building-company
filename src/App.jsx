@@ -6,6 +6,7 @@ import Service from "./components/service/Service";
 import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import Review from './components/review/Review';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Home />
       <AboutUs/>
       <Service />
+      <Review />
       <Contact />
       <Footer />
     </div>

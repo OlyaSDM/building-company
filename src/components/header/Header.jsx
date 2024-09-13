@@ -35,6 +35,11 @@ const Header = () => {
             </Link>
           </li>
           <li className='header-link'>
+            <Link to="review" spy={true} smooth={true} offset={-100} duration={500} onClick={handleLinkClick}>
+              Reviews
+            </Link>
+          </li>
+          <li className='header-link'>
             <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} onClick={handleLinkClick}>
               Contact
             </Link>
