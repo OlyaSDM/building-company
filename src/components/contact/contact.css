@@ -87,6 +87,14 @@
   padding-left: 10px;
 }
 
+.form-info::placeholder {
+  color: black;
+}
+
+.form-info.error::placeholder {
+  color: red;
+}
+
 .service-info {
   height: 145px;
 }
@@ -94,7 +102,10 @@
 .send {
   height: 50px;
   background-color: #FFC60D;
+  cursor: pointer;
 }
+
+
 
 @media (max-width: 1300px) {
   .left {

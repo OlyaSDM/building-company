@@ -4,6 +4,41 @@ import email from "../../icons/email.png";
 import local from "../../icons/icon-local.png";
 
 const Contact = () => {
+
+function validateForm(){
+    const nameInput = document.getElementById("nameID");
+    const emailInput = document.getElementById("emailID");
+    const addressInput = document.getElementById("addressID");
+
+    nameInput.classList.remove('error');
+    nameInput.style.border = "1px solid #ccc";
+
+    emailInput.classList.remove('error');
+    emailInput.style.border = "1px solid #ccc";
+
+    addressInput.classList.remove('error');
+    addressInput.style.border = "1px solid #ccc";
+
+
+    if (!nameInput.value) {
+        nameInput.style.border = "2px solid red";
+        nameInput.style.color = "black";
+        nameInput.classList.add('error');
+    }
+    if (!emailInput.value) {
+        emailInput.style.border = "2px solid red";
+        emailInput.style.color = "black";
+        emailInput.classList.add('error');
+    }
+    if (!addressInput.value) {
+        addressInput.style.border = "2px solid red";
+        addressInput.style.color = "black";
+        addressInput.classList.add('error');
+    }
+
+}
+
+
   return (
       <main className="contact-page" id="contact">
 
@@ -57,13 +92,13 @@ const Contact = () => {
               <div className="form">
 
                   <div>
-                  <input type="text" placeholder="Name" className="form-info personal-info name-info"/>
-                  <input type="email" placeholder="Email" className="form-info personal-info"/>
+                  <input type="text" id="nameID" placeholder="Name" className="form-info personal-info name-info"/>
+                  <input type="email" id="emailID" placeholder="Email" className="form-info personal-info"/>
                   </div>
-                  <input type="text" placeholder="Address" className="form-info"/>
+                  <input type="text" id="addressID" placeholder="Address" className="form-info"/>
                   <input type="text" className="form-info service-info"/>
 
-                  <button className="send">SEND</button>
+                  <button className="send" onClick={validateForm}>SEND</button>
 
               </div>
           </div>
