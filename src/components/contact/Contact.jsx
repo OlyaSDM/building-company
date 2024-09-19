@@ -57,7 +57,7 @@ function validateForm(){
                           <img src={phone} alt="phone-icon" className="contact-image"/>
                           </a>
                       </div>
-                      <a href="tel:737-347-3987" className="phone-number">737-347-3987</a>
+                      <a href="tel:737-347-3987" className="phone-number contact-info">737-347-3987</a>
                   </div>
 
                   <div className="contact-details">
@@ -66,7 +66,7 @@ function validateForm(){
                           <img src={email} alt="email-sign" className="contact-image"/>
                           </a>
                       </div>
-                      <a href="mailto:info@emalgroup.com" className="email-address">info@emalgroup.com</a>
+                      <a href="mailto:info@emalgroup.com" className="email-address contact-info">info@emalgroup.com</a>
                   </div>
 
                   <div className="contact-details">
