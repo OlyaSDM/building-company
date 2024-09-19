@@ -53,16 +53,20 @@ function validateForm(){
 
                   <div className="contact-details">
                       <div className="contact-image">
+                          <a href="tel:737-347-3987">
                           <img src={phone} alt="phone-icon" className="contact-image"/>
+                          </a>
                       </div>
-                      <div className="contact-info"> 737-347-3987 </div>
+                      <a href="tel:737-347-3987" className="phone-number">737-347-3987</a>
                   </div>
 
                   <div className="contact-details">
                       <div className="contact-image">
+                          <a href="mailto:info@emalgroup.com">
                           <img src={email} alt="email-sign" className="contact-image"/>
+                          </a>
                       </div>
-                      <div className="contact-info"> info@emalgroup.com </div>
+                      <a href="mailto:info@emalgroup.com" className="email-address">info@emalgroup.com</a>
                   </div>
 
                   <div className="contact-details">
