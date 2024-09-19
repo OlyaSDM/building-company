@@ -90,7 +90,7 @@ function validateForm(){
 
           <div className="right">
               <div className="form-title">
-              If you have any questions, please write to us.
+                  Free on-site estimate at your home
               </div>
               
               <div className="form">
