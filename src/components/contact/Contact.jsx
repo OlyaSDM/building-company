@@ -3,6 +3,7 @@ import phone from "../../icons/icon-phone.png";
 import email from "../../icons/email.png";
 import local from "../../icons/icon-local.png";
 
+
 const Contact = () => {
 
 function validateForm(){
@@ -92,19 +93,22 @@ function validateForm(){
               <div className="form-title">
                   Free on-site estimate at your home
               </div>
-              
+
+              <form action="https://formspree.io/f/mnnakjrz"
+                    method="POST">
               <div className="form">
 
                   <div>
-                  <input type="text" id="nameID" placeholder="Name" className="form-info personal-info name-info"/>
-                  <input type="email" id="emailID" placeholder="Email" className="form-info personal-info"/>
+                  <input name="name" type="text" id="nameID" placeholder="Name" className="form-info personal-info name-info"/>
+                  <input name="email" type="email" id="emailID" placeholder="Email" className="form-info personal-info"/>
                   </div>
-                  <input type="text" id="addressID" placeholder="Address" className="form-info"/>
-                  <input type="text" className="form-info service-info"/>
+                  <input name="address" type="text" id="addressID" placeholder="Address" className="form-info"/>
+                  <input name="info" type="text" className="form-info service-info"/>
 
                   <button className="send" onClick={validateForm}>SEND</button>
 
               </div>
+              </form>
           </div>
 
       </main>
