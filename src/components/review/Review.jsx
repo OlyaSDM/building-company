@@ -8,103 +8,103 @@ const Review = () => {
   const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
-    breakpoint: { max: 4000, min: 1400 },
+    breakpoint: { max: 4000, min: 1600 },
     items: 4
   },
   desktop: {
-    breakpoint: { max: 1400 , min: 1100 },
+    breakpoint: { max: 1600 , min: 1300 },
     items: 3
   },
   tablet: {
-    breakpoint: { max: 1100, min: 650 },
+    breakpoint: { max: 1300, min: 800 },
     items: 2
   },
   mobile: {
-    breakpoint: { max: 650, min: 0 },
+    breakpoint: { max: 800, min: 0 },
     items: 1
   }
 };
 
-const reviewData = [
-  {
-    id: 1,
-    title: "Terrace Construction on a Steep Cliff",
-    text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
-    name: "Michael Johnson"
-  },
-  {
-    id: 2,
-    title: "Balcony Construction on a Cliffside",
-    text: "Building a balcony on the side of a cliff seemed impossible, but these guys made it happen! The structure is safe, the design is beautiful, and we now have a fantastic outdoor space with panoramic views. Couldn't be happier!",
-    name: "Jessica Carter"
-  },
-  {
-    id: 3,
-    title: "Repairing the Roof Structure",
-    text: "Our roof was in desperate need of repair, and they did an amazing job replacing the damaged trusses and reinforcing the whole structure. The house feels much more secure now, and the job was done quickly and efficiently.",
-    name: "James Anderson"
-  },
-  {
-    id: 4,
-    title: "House Painting",
-    text: "I couldn’t be more pleased with the way our house turned out after the paint job! The attention to detail was top-notch, and they helped me pick the perfect color. Our home looks brand new again.",
-    name: "Emily Davis"
-  },
-  {
-    id: 5,
-    title: "Vinyl Flooring Installation",
-    text: "They installed vinyl flooring throughout our entire house, and the result is stunning! It was done in just a couple of days, with minimal disruption. The new floors are durable and easy to maintain, and they’ve totally transformed our home.",
-    name: "Robert Miller"
-  },
-  {
-    id: 1,
-    title: "Terrace Construction on a Steep Cliff",
-    text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
-    name: "Michael Johnson"
-  },
-  {
-    id: 1,
-    title: "Terrace Construction on a Steep Cliff",
-    text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
-    name: "Michael Johnson"
-  },
-  {
-    id: 1,
-    title: "Terrace Construction on a Steep Cliff",
-    text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
-    name: "Michael Johnson"
-  },
-  {
-    id: 1,
-    title: "Terrace Construction on a Steep Cliff",
-    text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
-    name: "Michael Johnson"
-  },
-  {
-    id: 1,
-    title: "Terrace Construction on a Steep Cliff",
-    text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
-    name: "Michael Johnson"
-  },
-  {
-    id: 1,
-    title: "Terrace Construction on a Steep Cliff",
-    text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
-    name: "Michael Johnson"
-  },
-  {
-    id: 1,
-    title: "Terrace Construction on a Steep Cliff",
-    text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
-    name: "Michael Johnson"
-  },
-  {
-    id: 1,
-    title: "Terrace Construction on a Steep Cliff",
-    text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
-    name: "Michael Johnson"
-  }
-]
+// const reviewData = [
+//   {
+//     id: 1,
+//     title: "Terrace Construction on a Steep Cliff",
+//     text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
+//     name: "Michael Johnson"
+//   },
+//   {
+//     id: 2,
+//     title: "Balcony Construction on a Cliffside",
+//     text: "Building a balcony on the side of a cliff seemed impossible, but these guys made it happen! The structure is safe, the design is beautiful, and we now have a fantastic outdoor space with panoramic views. Couldn't be happier!",
+//     name: "Jessica Carter"
+//   },
+//   {
+//     id: 3,
+//     title: "Repairing the Roof Structure",
+//     text: "Our roof was in desperate need of repair, and they did an amazing job replacing the damaged trusses and reinforcing the whole structure. The house feels much more secure now, and the job was done quickly and efficiently.",
+//     name: "James Anderson"
+//   },
+//   {
+//     id: 4,
+//     title: "House Painting",
+//     text: "I couldn’t be more pleased with the way our house turned out after the paint job! The attention to detail was top-notch, and they helped me pick the perfect color. Our home looks brand new again.",
+//     name: "Emily Davis"
+//   },
+//   {
+//     id: 5,
+//     title: "Vinyl Flooring Installation",
+//     text: "They installed vinyl flooring throughout our entire house, and the result is stunning! It was done in just a couple of days, with minimal disruption. The new floors are durable and easy to maintain, and they’ve totally transformed our home.",
+//     name: "Robert Miller"
+//   },
+//   {
+//     id: 1,
+//     title: "Terrace Construction on a Steep Cliff",
+//     text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
+//     name: "Michael Johnson"
+//   },
+//   {
+//     id: 1,
+//     title: "Terrace Construction on a Steep Cliff",
+//     text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
+//     name: "Michael Johnson"
+//   },
+//   {
+//     id: 1,
+//     title: "Terrace Construction on a Steep Cliff",
+//     text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
+//     name: "Michael Johnson"
+//   },
+//   {
+//     id: 1,
+//     title: "Terrace Construction on a Steep Cliff",
+//     text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
+//     name: "Michael Johnson"
+//   },
+//   {
+//     id: 1,
+//     title: "Terrace Construction on a Steep Cliff",
+//     text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
+//     name: "Michael Johnson"
+//   },
+//   {
+//     id: 1,
+//     title: "Terrace Construction on a Steep Cliff",
+//     text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
+//     name: "Michael Johnson"
+//   },
+//   {
+//     id: 1,
+//     title: "Terrace Construction on a Steep Cliff",
+//     text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
+//     name: "Michael Johnson"
+//   },
+//   {
+//     id: 1,
+//     title: "Terrace Construction on a Steep Cliff",
+//     text: "I had my doubts about building a terrace on such a steep slope, but the team handled everything with professionalism and skill. The view from the new terrace is breathtaking, and the construction feels incredibly sturdy. I’m amazed at how they managed to make it look so seamless!",
+//     name: "Michael Johnson"
+//   }
+// ]
   return (
     <div className='review-container' id="review">
       <div className='review-header'>
@@ -140,6 +140,12 @@ const reviewData = [
       </div> */}
       <Carousel responsive={responsive}>
         <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        
       </Carousel>
     </div>
   )
