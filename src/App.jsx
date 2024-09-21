@@ -7,6 +7,7 @@ import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Review from './components/review/Review';
+import Gallery from './components/photo-gallery/gallery';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Home />
       <AboutUs/>
       <Service />
+      <Gallery />
       <Review />
       <Contact />
       <Footer />

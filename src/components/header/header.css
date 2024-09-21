@@ -51,7 +51,7 @@
     display: none;
   }
 
-@media (max-width: 820px){
+@media (max-width: 950px){
   .header{
     padding: 0 20px;
   }
@@ -61,7 +61,7 @@
     margin-left: 30px;
   }
 }
-@media (max-width: 500px){
+@media (max-width: 650px){
   #header-links{
     position: fixed;
     top: 0;

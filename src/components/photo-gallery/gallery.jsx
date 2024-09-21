@@ -1,4 +1,3 @@
-import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -6,10 +5,7 @@ import './gallery.css'
 import '../header/header.css'
 
 
-
-
 const Gallery = () => {
-
 
 const settings = {
 dots: true,
@@ -72,7 +68,7 @@ const images = [
 
 
 return (
-<main className='bg-gallery'>
+<main className='bg-gallery' id="gallery">
    <section className='gallery-container'>
       <h2>Photo gallery</h2>
       <svg width="137" height="9" viewBox="0 0 137 9" fill="none" xmlns="http://www.w3.org/2000/svg">
